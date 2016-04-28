@@ -24,6 +24,7 @@ body {
     width: 80%;
     clear: both;
     background-position: center; 
+    background-size: cover;
 }
 
 .emoto {
@@ -31,6 +32,7 @@ body {
     width: 100px;
     height: 100px;
     margin: 2px;
+    background-size: cover;
 }
 .my_message {
     float: right;
@@ -60,6 +62,7 @@ body {
 #emoto-status-mine {
     background-image: url(http://chrisproctor.net/temp/emotos/forest.jpg);
     background-position: center; 
+    background-size: cover;
     height: 100%;
     width: 50%;
     margin: 0;
@@ -68,6 +71,7 @@ body {
 #emoto-status-yours {
     background-image: url(http://chrisproctor.net/temp/emotos/sunrise.jpg);
     background-position: center; 
+    background-size: cover;
     height: 100%;
     width: 50%;
     margin: 0;
