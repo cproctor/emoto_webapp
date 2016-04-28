@@ -1,0 +1,80 @@
+body {
+    font-family: -apple-system-font, Helvetica Neue;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 568px;
+}
+
+#container {
+    width: 100%;
+}
+
+#messages, #emotos {
+    margin-top: 50px;
+    margin-bottom:100px;
+    overflow: scroll;
+    height: 400px;
+}
+
+.message {
+    width: 80%;
+    clear: both;
+    background-position: center; 
+}
+
+.emoto {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+.my_message {
+    float: right;
+}
+
+.your_message {
+    float: left;
+}
+
+.text {
+    margin: 20px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.7)
+}
+
+#footer {
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    position: absolute !important;
+    bottom: 0;
+}
+#emoto-status {
+    height: 50px;
+}
+#emoto-status-mine {
+    background-image: url(http://chrisproctor.net/temp/emotos/forest.jpg);
+    background-position: center; 
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+#emoto-status-yours {
+    background-image: url(http://chrisproctor.net/temp/emotos/sunrise.jpg);
+    background-position: center; 
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+#toolbar {
+    padding: 10px;
+    height: 50px;
+}

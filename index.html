@@ -1,13 +1,32 @@
 <!DOCTYPE html>
     <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
         <link rel="stylesheet" href="style.css">
         <script src="lib/jquery.2.1.4.js"></script>
-        <script src="lib/backbone.1.2.3.js"></script>
         <script src="lib/underscore.1.8.3.js"></script>
         <script src="lib/d3.3.5.9.js"></script>
+        <script src="lib/firebase.js"></script>
     </head>
     <body>
-        <h1>Interactive Webpage Template</h1>
-        <p>Contains jquery, backbone, underscore, and d3.</p>
+        <div id="container">
+            <div id="messages">
+            </div>
+            <div id="emotos">
+            </div>
+            <div id="footer">
+                <div id="emoto-status">
+                    <div id="emoto-status-yours"></div>
+                    <div id="emoto-status-mine"></div>
+                </div>
+                <div id="toolbar">
+                    <input type="text">
+                    <button id="send">Send</button>
+                    <button id="emoto">Set Emoto</button>
+                </div>
+            </div>
+        </div>
+        <script src="emoto.js"></script>
     </body>
 </html>
