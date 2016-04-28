@@ -110,6 +110,16 @@ $('#emoto').click(function() {
     showMode('emotos')
 })
 
+moment.tz.add([
+    'America/Los_Angeles|PST PDT|80 70|0101|1Lzm0 1zb0 Op0',
+    'America/New_York|EST EDT|50 40|0101|1Lz50 1zb0 Op0'
+])
+
+setInterval(function() {
+    $('#context-mine .time').html(moment().tz('America/Los_Angeles').format('h:mm a'))
+    $('#context-yours .time').html(moment().tz('America/New_York').format('h:mm a'))
+}, 1000)
+
 // HELPERS
 
 function getParameterByName(name, url) {

@@ -82,3 +82,17 @@ body {
     padding: 10px;
     height: 50px;
 }
+
+.context {
+    position: absolute;
+    margin: 3px;
+}
+
+#context-yours {
+    top: 0;
+    left: 0;
+}
+#context-mine {
+    top: 0;
+    right: 0;
+}
